@@ -30,7 +30,7 @@
             bindings = <
 &trans  &trans          &trans    &kp UP          &trans     &trans    &kp N7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS         &kp EQUAL
 &trans  &kp LEFT_SHIFT  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans    &kp TILDE  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &trans          &trans    &trans          &trans     &trans    &kp GRAVE  &kp N1        &kp N2        &kp NUMBER_3  &trans            &trans
+&trans  &trans          &trans    &trans          &trans     &trans    &kp GRAVE  &kp N1        &kp N2        &kp NUMBER_3  &kp HOME          &kp END
                                   &trans          &trans     &trans    &trans     &trans        &trans
             >;
         };
