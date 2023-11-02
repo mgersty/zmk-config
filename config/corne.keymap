@@ -32,9 +32,9 @@
 
         layer_1 {
             bindings = <
-&kp EQUAL  &kp EXCLAMATION  &kp AT          &kp POUND       &kp DOLLAR            &kp PERCENT    &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp NUMBER_0          &kp MINUS
-&kp GRAVE  &kp LEFT_SHIFT   &mt LCTRL LEFT  &kp UP_ARROW    &mt LEFT_SHIFT RIGHT  &kp HOME       &kp END    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NON_US_BACKSLASH  &kp PLUS
-&trans     &trans           &trans          &kp DOWN_ARROW  &trans                &trans         &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET      &kp RIGHT_BRACKET
+&kp EQUAL  &kp EXCLAMATION  &kp AT          &kp POUND       &kp DOLLAR            &kp PERCENT    &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp NUMBER_0      &kp MINUS
+&kp GRAVE  &kp LEFT_SHIFT   &mt LCTRL LEFT  &kp UP_ARROW    &mt LEFT_SHIFT RIGHT  &kp HOME       &kp END    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &trans           &trans          &kp DOWN_ARROW  &trans                &trans         &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &trans
                                             &trans          &trans                &trans         &trans     &trans        &kp N0
             >;
         };
