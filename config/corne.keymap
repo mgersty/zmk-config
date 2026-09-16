@@ -22,28 +22,28 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp Q             &kp W               &kp E           &kp R          &kp T    &kp Y    &kp U       &kp I            &kp O                &kp P                      &kp DELETE
-&kp ESCAPE        &mt LEFT_SHIFT A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F     &kp G    &kp H    &mt LGUI J  &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &mt RIGHT_SHIFT SEMICOLON  &kp SQT
-&kp LEFT_CONTROL  &kp Z             &kp X               &kp C           &kp V          &kp B    &kp N    &kp M       &kp COMMA        &kp DOT              &kp FSLH                   &kp RIGHT_SHIFT
-                                                        &mo 2           &kp BACKSPACE  &mo 1    &kp RET  &kp SPACE   &kp N0
+&kp TAB           &kp Q             &kp W               &kp E           &kp R          &kp T      &kp Y           &kp U           &kp I            &kp O                &kp P                      &kp DELETE
+&kp ESCAPE        &mt LEFT_SHIFT A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LGUI F     &kp G      &kp H           &mt LGUI J      &mt RIGHT_ALT K  &mt RIGHT_CONTROL L  &mt RIGHT_SHIFT SEMICOLON  &kp SQT
+&kp LEFT_CONTROL  &kp Z             &kp X               &kp C           &kp V          &kp B      &kp N           &kp M           &kp COMMA        &kp DOT              &kp FSLH                   &kp RIGHT_SHIFT
+                                                        &mo 2           &kp BACKSPACE  &mo 1      &kp RET         &kp SPACE       &kp N0
             >;
         };
 
         layer_1 {
             bindings = <
-&kp TILDE   &kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp N9           &kp NUMBER_0      &kp MINUS
-&kp ESCAPE  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LGUI      &kp N0    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp GRAVE   &trans          &trans            &trans        &trans        &trans    &kp EQUAL       &kp EXCL        &kp AT_SIGN   &kp DOLLAR       &kp BACKSLASH     &kp RIGHT_SHIFT
-                                              &trans        &trans        &trans    &trans          &trans          &trans
+&kp TILDE        &kp NUMBER_1       &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4   &kp N5     &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8     &kp N9               &kp NUMBER_0               &kp MINUS
+&kp ESCAPE       &kp LEFT_SHIFT     &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LGUI       &kp N0     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW      &kp LEFT_BRACKET           &kp RIGHT_BRACKET
+&kp GRAVE        &trans             &trans              &trans          &trans         &trans     &kp EQUAL       &kp EXCL        &kp AT_SIGN      &kp DOLLAR           &kp BACKSLASH              &kp RIGHT_SHIFT
+                                                        &trans          &trans         &trans     &trans          &trans          &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &kp F1            &kp F2        &kp F3        &kp F4      &kp F5    &kp F6   &kp F7         &kp F8         &kp F9         &kp F10  &trans
-&trans  &bt BT_CLR_ALL    &trans        &trans        &trans      &trans    &kp F11  &kp F12        &trans         &trans         &trans   &trans
-&trans  &bt BT_SEL 0      &bt BT_SEL 1  &bt BT_SEL 2  &trans      &trans    &trans   &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bl BL_TOG &rgb_ug RGB_TOG
-                                        &trans        &trans      &trans    &trans   &bl BL_OFF     &rgb_ug RGB_OFF
+&trans           &kp F1             &kp F2              &kp F3          &kp F4         &kp F5     &kp F6          &kp F7          &kp F8           &kp F9               &kp F10                    &trans
+&trans           &bt BT_CLR_ALL     &bt BT_DISC 0       &bt BT_DISC_1   &bt BT_DISC_2  &trans     &kp F11         &kp F12         &rgb_ug RGB_ON   &rgb_ug RGB_OFF      &rgb_ug RGB_TOG            &trans
+&trans           &trans             &bt BT_SEL 1        &bt BT_SEL 1    &bt BT_SEL 2   &trans     &trans          &trans          &trans           &trans 
+                                                        &trans          &trans         &trans     &trans          &trans          &trans
             >;
         };
     };
