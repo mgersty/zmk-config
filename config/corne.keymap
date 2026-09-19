@@ -13,7 +13,7 @@
 
 &mt {
     // Keep home-row mod-taps responsive while avoiding a long hold decision.
-    tapping-term-ms = <60>;
+    tapping-term-ms = <150>;
     quick-tap-ms = <120>;
     flavor = "balanced";
 };
