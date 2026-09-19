@@ -12,8 +12,9 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &mt {
-    tapping-term-ms = <200>;
-    flavor = "tap-preferred";
+    // Shorter hold decision makes home-row modifiers and layer access feel snappier.
+    tapping-term-ms = <150>;
+    flavor = "balanced";
 };
 
 / {
@@ -31,9 +32,9 @@
 
         layer_1 {
             bindings = <
-&kp TILDE        &kp NUMBER_1       &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4   &kp N5     &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8     &kp N9               &kp NUMBER_0               &kp MINUS
+&kp GRAVE        &kp NUMBER_1       &kp NUMBER_2        &kp NUMBER_3    &kp NUMBER_4   &kp N5     &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8     &kp N9               &kp NUMBER_0               &kp MINUS
 &kp ESCAPE       &kp LEFT_SHIFT     &kp LEFT_CONTROL    &kp LEFT_ALT    &kp LGUI       &kp N0     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW      &kp LEFT_BRACKET           &kp RIGHT_BRACKET
-&kp GRAVE        &trans             &trans              &trans          &trans         &trans     &kp EQUAL       &kp EXCL        &kp AT_SIGN      &kp DOLLAR           &kp BACKSLASH              &kp RIGHT_SHIFT
+&kp TILDE        &trans             &trans              &trans          &trans         &trans     &kp EQUAL       &kp EXCL        &kp AT_SIGN      &kp DOLLAR           &kp BACKSLASH              &kp RIGHT_SHIFT
                                                         &trans          &trans         &trans     &trans          &trans          &trans
             >;
         };
